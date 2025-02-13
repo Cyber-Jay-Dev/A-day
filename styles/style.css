@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ffb6c6;
+    height: 100vh;
+    overflow: hidden;
+}
+/* Landing Page */
+.greeting_card{
+    background-color: #ffb6c6;
+}
+.halo-gradient{
+    width: 100vw;
+    height: 70vh;
+    background: radial-gradient(circle, white, transparent, transparent 100%);
+    background-position: center;
+    background-size: contain;
+    color: #f17191;
+    text-align: center;
+    align-content: center;
+    gap: 20px;
+}
+.old_standard{
+    font-family: "Old Standard TT", serif;
+    font-size: 40px;
+}
+.montecarlo{
+    font-family: "MonteCarlo", serif;
+    font-size: 80px;
+    color: #f88da7;
+    text-shadow: 5px 5px 2px #fcc1d1;
+}
+.footer{
+   display: flex;
+   flex-direction: column;
+   width: 100vw;
+   height: 20vh;
+   align-items: center; 
+   background-color: #fad0ca;
+   margin-top: 10vh;
+   position: relative; 
+}
+.heartIcon{
+    position: absolute;
+    font-size: 190px;
+    color:#f69aaf ;
+    top: -10px; 
+    transform: translateY(-50%);
+    animation: heartbeat 1.2s infinite;
+}
+/* .heart{
+    display: flex;
+    position: absolute;
+    left: 70px;
+    bottom: 40px;
+}
+.heartsvg{
+    width: 250px;
+    height: 25 0px;
+    filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.6));
+
+} */
+
+.redirect{
+    width: 110px;
+    height: 25px;
+    background-color: #f17191;
+    color: #fad0ca;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    font-family: "Merienda", serif;
+    margin-top: 120px;
+}
+.color-transition{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    transition: height 1s ease;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+#message {
+    width: 0; 
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: "Cedarville Cursive", serif;
+    font-size: 2em;
+    visibility: hidden; 
+}
+
+/* .animate {
+    visibility: visible; 
+    animation: typing 2s steps(22) forwards;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 22ch;
+    }
+} */
+
+      
+  
+  
