@@ -8,10 +8,4 @@ $(document).ready(function () {
               $("body").css("background-color", targetcolor);
           });
   });
-
-  $("#message").click(function () {
-      $(this).removeClass("animate"); 
-      void this.offsetWidth; 
-      $(this).addClass("animate"); 
-  }).css("visibility", "visible");
 });
